@@ -1,0 +1,132 @@
+.navbar {
+    background-color: #bd904e;
+    width: 100%;
+    margin-top: fixed;
+}
+
+.nav-text {
+    padding: 14px 16px;
+}
+
+.navbar a {
+    color: #F7FAFE;
+    font-size: 20px;
+}
+
+.icon {
+    float: right;
+    margin-right: 40px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: bisque;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: bisque;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F7FAFE;
+}
+
+.container {
+    width: 45%;
+    background-color: bisque;
+    padding-top: 175px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+}
+
+.card-container {
+    border: 2px solid black;
+}
+
+.bg {
+    width: 50%;
+    float: left;
+    padding-bottom: 500px;
+    background-color: bisque;
+}
+
+div {
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown {
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: bisque;
+    font-size: 16px;
+    resize: none;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+body {
+    background-image: url("coffee_mountain.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.simple-footer{
+    background-color: #bd904e;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    float: left;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+footer a {
+    color: #F7FAFE;
+}
+
+.text-right {
+    float: right;
+    margin-right: 40px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+
