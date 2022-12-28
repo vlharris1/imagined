@@ -1,7 +1,10 @@
-function myFunction(name, height, country) {
-    console.log(name + 'is ' + height + ' inches tall and is from ' + country);
+//function with three parameters
+function personsInfo(name, height, country) {
+    alert(name + ' is ' + height + ' inches tall and is from ' + country);
 }
 
-myFunction('Abbe ', '65', 'America.');
+personsInfo('Veronica', '65', 'America.');
 
-//function with three parameters
+function button() {
+    alert('Thank you for watching.');
+}
