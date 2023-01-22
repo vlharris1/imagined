@@ -1,0 +1,106 @@
+body {
+    background-color: bisque;
+}
+
+.navbar {
+    background-color: #bd904e;
+    width: 100%;
+}
+
+.nav-text {
+    padding: 14px 16px;
+}
+
+.icon {
+    float: right;
+    margin-right: 40px;
+}
+
+.title-bar {
+    background-image: url("coffee_mountain.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title-text {
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.order-button {
+   background-color: #04aa6b;
+   border: none;
+   color: #F7FAFE;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 8px;
+}
+
+.button-location {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 2rem;
+    width: min (95%, 70rem);
+    margin-inline: auto;
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.simple-footer{
+    background-color: #bd904e;
+    overflow: hidden;
+    /* position: relative; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+footer a {
+    color: #F7FAFE;
+}
+
+.navbar a {
+    color: #F7FAFE;
+    font-size: 20px;
+}
+
+.order-button a {
+    color: #323232;
+}
+
+.text-right {
+    float: right;
+    margin-right: 40px;
+}
+
+a:link {
+    text-decoration: none;
+}
